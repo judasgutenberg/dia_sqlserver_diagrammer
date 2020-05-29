@@ -32,8 +32,7 @@ config = json.loads("""
 			"databaseName":"xxxxx" ,
 			"databaseUser": "sa",
 			"databaseServer": "yyyy",
-			"tableSchema": "dbo",
-			"sourceDatabaseDirectory":"data" 
+			"tableSchema": "dbo"
 		}
 	""")
 ##############################
