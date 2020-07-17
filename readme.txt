@@ -1,4 +1,4 @@
-This python script is used to turn a SQL Server database into a .dia diagram for use in the Dia program (see http://dia-installer.de/)  It does not produce relationship lines, though some initial work for this has been done.  To configure, you will need to set sqlDirectory and diagramDirectory paths in lines 302 and 303.
+This python script is used to turn a SQL Server database into a .dia diagram for use in the Dia program (see http://dia-installer.de/)  It does not produce relationship lines, though some initial work for this has been done. (I haven't been able to find proper documentation for .dia XML files.)  To configure, you will need to set sqlDirectory and diagramDirectory paths in lines 302 and 303.
 
 
 This looks for a secrets.py file in the directory 'pythonToolSettings,' parallel to the one this script is placed in.  That is:
